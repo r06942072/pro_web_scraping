@@ -1,4 +1,8 @@
 # pro_web_scraping
+[youtube embed video]  
+We need to scrap [video_ID]
+example code snippet:  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/[video_ID]" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
 [2019.03.20-ubuntu]
 download chrome linux
