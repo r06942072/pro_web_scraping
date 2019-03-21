@@ -5,23 +5,23 @@ example code snippet:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/[video_ID]" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
 [2019.03.20-ubuntu]
-download chrome linux
-cd project/
-sudo apt install git
-sudo apt install vim
+download chrome linux  
+cd project/  
+sudo apt install git  
+sudo apt install vim  
 
-vim ~/.bash_aliases
-alias ae='deactivate &> /dev/null; source ./venv/bin/activate'
-alias de='deactivate'
+vim ~/.bash_aliases  
+alias ae='deactivate &> /dev/null; source ./venv/bin/activate'  
+alias de='deactivate'  
 
-sudo apt install virtualenv
-virtualenv -p /usr/bin/python3 env
-sudo pip install python-pip
-pip install selenium
-pip install requests
-pip freeze --local > requirements
+sudo apt install virtualenv  
+virtualenv -p /usr/bin/python3 env  
+sudo pip install python-pip  
+pip install selenium  
+pip install requests  
+pip freeze --local > requirements  
 
-download google web driver
-- move driver into PATH
-mv chromedriver ./env/bin
+download google web driver  
+- move driver into PATH  
+mv chromedriver ./env/bin  
 
