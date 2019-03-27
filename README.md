@@ -22,13 +22,13 @@ pip install requests
 pip freeze --local > requirements  
 
 ##Download web driver##
-- Fiefox
-https://github.com/mozilla/geckodriver/releases
-wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux64.tar.gz
-tar -xvzf geckodriver
-chmod +x geckodriver
-export to PATH
+- Fiefox  
+https://github.com/mozilla/geckodriver/releases  
+wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux64.tar.gz  
+tar -xvzf geckodriver  
+chmod +x geckodriver  
+export to PATH  
 
-- move driver into PATH  
-mv chromedriver ./env/bin  
+- move driver into PATH    
+mv chromedriver ./env/bin    
 
