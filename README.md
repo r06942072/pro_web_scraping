@@ -1,4 +1,7 @@
 # pro_web_scraping
+- Getting started
+```./setup.sh```
+
 [youtube embed video]  
 We need to scrap [video_ID]
 example code snippet:  
